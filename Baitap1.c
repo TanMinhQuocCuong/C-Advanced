@@ -38,5 +38,5 @@ void demPhanTu(int arr[], int length)
 
 int main()
 {
-    demPhanTu(arr, 7);
+    demPhanTu(arr, sizeof(arr);
 }
