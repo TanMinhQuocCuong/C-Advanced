@@ -10,7 +10,6 @@ void demPhanTu(int arr[], int length)
     int b[length];
 
     a[0]=arr[0];
-    
     for (int i = 1; i <= length; i++)
     {
         check=0;
@@ -23,7 +22,6 @@ void demPhanTu(int arr[], int length)
                 break;
             }
         }
-
         if (check == 0)
         {
             max++;
